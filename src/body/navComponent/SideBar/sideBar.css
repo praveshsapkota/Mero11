@@ -1,0 +1,71 @@
+.sideTop{
+    display: flex;
+    margin: 8px;
+    padding-bottom: 25px;
+    border-bottom: dashed rgb(182, 182, 187);
+    border-bottom-width: thin;
+}
+.Avatar{
+    padding-right: 10px;
+}
+
+.profileName{
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+.menuBar button span> .MuiSvgIcon-root{
+    font-size: 5vw;
+    color: white;
+}
+
+
+.navMenu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    width : 55%;
+    max-width: 250px;
+    position: fixed;
+    box-shadow: 5px 0px 10px rgba(0,0,0,0.7);
+    top: 0;
+    left:0;
+    justify-content: flex-start;
+    z-index: 200;
+    transform:translateX(-104%);
+    transition: transform 0.3s ease-out;
+}
+
+
+
+.navMenu.active{
+    transform: translateX(0);
+}
+
+.navText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    height:65px;
+}
+
+.navText a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: -15px;
+}
+
+.navText a:hover{
+    margin: 2px;
+    background-color: rgb(201, 85, 8);
+}
+
+.navText a > .MuiSvgIcon-root{
+    margin-right: 15px;
+    font-size: 27px;
+}

@@ -1,0 +1,47 @@
+.topNavigation{
+    display: flex;
+    justify-content: space-between;
+    width :100vw;
+    height: 8vh;
+    background-color: rgb(218, 218, 225);
+    margin:5px 0px;
+    border-radius: 0.4rem;
+    position: fixed;
+    
+}
+.games{
+    display: flex;
+    justify-content: center;
+}
+.games a{
+    display:flex;
+    flex-direction: column;
+    width: 10vw;
+    color: black;
+    margin:5px 10px;
+}
+.games a span{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: -2px;
+    justify-content: space-around;
+}
+.games a svg{
+    display: flex;
+    justify-content: center;
+    font-size: 10vw;
+}
+
+@media only screen and (min-width : 700px ){
+    .games a span{
+        display: flex;
+        font-size: 2vh;
+        justify-content: space-around;
+    }
+    .games a svg{
+        display: flex;
+        justify-content: center;
+        font-size: 9vw;
+
+    }
+}

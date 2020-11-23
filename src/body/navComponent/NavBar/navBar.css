@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+.navBar{
+    background-color: rgb(43, 42, 42);
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBar{
+    padding: 1vw;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.menuBar button{
+    outline: none;
+}
+
+.logo{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    font-size: 5vw;
+    color: white;
+    margin-left: 0%;
+}
+
+.navSideComponent{
+    display: flex;
+    color: white;
+    margin-right: 2%;
+}
+.navSideComponent > .MuiSvgIcon-root{
+    font-size: 4vw;
+    margin:2vw ;
+}
+.navSideComponent > .MuiSvgIcon-root:hover {
+    color: rgb(201, 85, 8) ;
+}
+
+@media only screen and (min-width:800px){
+    .logo{
+        font-family: 'Orbitron', sans-serif;
+        display: flex;
+        font-size: 3vw;
+        color: white;
+        margin-left: 0%;
+    }
+}
+
